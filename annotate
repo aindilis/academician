@@ -1,0 +1,17 @@
+#!/usr/bin/perl -w
+
+use Cite;
+
+{
+  $UNIVERSAL::cite = Cite->new
+    (Project => $ARGV[0] || "default");
+}
+
+if ($ARGV[0] eq "download") {
+  $UNIVERSAL::cite->DownloadDB;
+} elsif ($ARGV[0] eq "upload") {
+  $UNIVERSAL::cite->UploadDB;
+} else {
+  $UNIVERSAL::cite->Execute;
+  $UNIVERSAL::cite->Todo;
+}

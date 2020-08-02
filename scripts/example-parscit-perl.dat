@@ -1,0 +1,1475 @@
+$VAR1 = {
+          'version' => '110505',
+          'algorithm' => {
+                         'ParsHed' => {
+                                      'version' => '110505',
+                                      'variant' => {
+                                                   'author' => {
+                                                               'content' => 'Linh Anh Nguyen',
+                                                               'confidence' => '0.980396'
+                                                             },
+                                                   'email' => {
+                                                              'confidence' => '0.974733',
+                                                              'content' => 'nguyen@mimuw.edu.pl'
+                                                            },
+                                                   'confidence' => '0.661838',
+                                                   'title' => {
+                                                              'content' => 'The Modal Logic Programming System MProlog ?',
+                                                              'confidence' => '0.8685145'
+                                                            },
+                                                   'affiliation' => {
+                                                                    'content' => 'Institute of Informatics, University of Warsaw',
+                                                                    'confidence' => '0.999749'
+                                                                  },
+                                                   'intro' => {
+                                                              'content' => '1',
+                                                              'confidence' => '0.932585'
+                                                            },
+                                                   'no' => '0',
+                                                   'address' => {
+                                                                'content' => 'ul. Banacha 2, 02-097 Warsaw, Poland',
+                                                                'confidence' => '0.995291'
+                                                              },
+                                                   'abstract' => {
+                                                                 'content' => 'We present the design of our implemented modal logic programming system MProlog. This system is written in Prolog as a module for Prolog. Codes, libraries, and most features of Prolog can be used in MProlog programs. The system contains a number of built-in SLDresolution calculi for modal logics, including calculi for useful multimodal logics of belief. It is a tool to experiment with applications of modal logic programming to AI.',
+                                                                 'confidence' => '0.99899'
+                                                               }
+                                                 }
+                                    },
+                         'ParsCit' => {
+                                      'version' => '110505',
+                                      'citationList' => {
+                                                        'citation' => [
+                                                                      {
+                                                                        'location' => 'Higashi-Yurigaoka, Asao-ku, Kawasaki-shi, 215, Japan,',
+                                                                        'valid' => 'true',
+                                                                        'date' => '1989',
+                                                                        'contexts' => {
+                                                                                      'context' => {
+                                                                                                   'startWordPosition' => '117',
+                                                                                                   'citStr' => '[4, 2, 1, 5, 12, 3, 9, 10]',
+                                                                                                   'endWordPosition' => '124',
+                                                                                                   'position' => '791',
+                                                                                                   'content' => 'plications of modal logic programming to AI. 1 Introduction Modal logics can be used to reason about knowledge, belief, actions, etc. Many authors have proposed modal extensions for logic programming [4, 2, 1, 5, 12, 3, 9, 10]. There are two approaches: the direct approach and the translational approach. The first approach directly uses modalities, while the second one translates modal logic programs to classical logic pro'
+                                                                                                 }
+                                                                                    },
+                                                                        'rawString' => 'Akama, S.: A Meta-Logical Foundation of Modal Logic Programming. 1-20-1, Higashi-Yurigaoka, Asao-ku, Kawasaki-shi, 215, Japan, December 1989.',
+                                                                        'authors' => {
+                                                                                     'author' => 'S Akama'
+                                                                                   },
+                                                                        'marker' => '1.',
+                                                                        'title' => 'A Meta-Logical Foundation of Modal Logic Programming.',
+                                                                        'tech' => '1-20-1,'
+                                                                      },
+                                                                      {
+                                                                        'authors' => {
+                                                                                     'author' => [
+                                                                                                 'P Balbiani',
+                                                                                                 "Fari\x{2dc} nas del Cerro",
+                                                                                                 'L Herzig',
+                                                                                                 'A'
+                                                                                               ]
+                                                                                   },
+                                                                        'rawString' => "Balbiani, P., Fari\x{2dc} nas del Cerro, L., Herzig, A.: Declarative Semantics for Modal Logic Programs, Proceedings of the 1988 International Conference on Fifth Generation Computer Systems, ICOT, 1988, 507\x{2013}514.",
+                                                                        'contexts' => {
+                                                                                      'context' => [
+                                                                                                   {
+                                                                                                     'content' => 'plications of modal logic programming to AI. 1 Introduction Modal logics can be used to reason about knowledge, belief, actions, etc. Many authors have proposed modal extensions for logic programming [4, 2, 1, 5, 12, 3, 9, 10]. There are two approaches: the direct approach and the translational approach. The first approach directly uses modalities, while the second one translates modal logic programs to classical logic pro',
+                                                                                                     'citStr' => '[4, 2, 1, 5, 12, 3, 9, 10]',
+                                                                                                     'startWordPosition' => '117',
+                                                                                                     'position' => '791',
+                                                                                                     'endWordPosition' => '124'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'content' => "rogramming, it seems more intuitive and convenient to use modalities in a direct way1 (e.g., in the debugging and interactive modes of programming). In the direct approach, the work by Balbiani et al [2] disallows 2 in bodies of program clauses and goals, and the work by Baldoni et al [3] disallows 3 in programs and goals. In the Molog system implemented by the group of Fari\x{2dc} nas del Cerro [4], unive",
+                                                                                                     'endWordPosition' => '232',
+                                                                                                     'position' => '1441',
+                                                                                                     'citStr' => '[2]',
+                                                                                                     'startWordPosition' => '232'
+                                                                                                   }
+                                                                                                 ]
+                                                                                    },
+                                                                        'title' => 'Declarative Semantics for Modal Logic Programs,',
+                                                                        'marker' => '2.',
+                                                                        'valid' => 'true',
+                                                                        'booktitle' => 'Proceedings of the 1988 International Conference on Fifth Generation Computer Systems, ICOT,',
+                                                                        'pages' => '507--514',
+                                                                        'date' => '1988'
+                                                                      },
+                                                                      {
+                                                                        'title' => 'A.: A Framework for a Modal Logic Programming,',
+                                                                        'marker' => '3.',
+                                                                        'rawString' => "Baldoni, M., Giordano, L., Martelli, A.: A Framework for a Modal Logic Programming, Joint International Conference and Symposium on Logic Programming, MIT Press, 1996, 52\x{2013}66.",
+                                                                        'publisher' => 'MIT Press,',
+                                                                        'authors' => {
+                                                                                     'author' => [
+                                                                                                 'M Baldoni',
+                                                                                                 'L Giordano',
+                                                                                                 'Martelli'
+                                                                                               ]
+                                                                                   },
+                                                                        'contexts' => {
+                                                                                      'context' => [
+                                                                                                   {
+                                                                                                     'content' => 'plications of modal logic programming to AI. 1 Introduction Modal logics can be used to reason about knowledge, belief, actions, etc. Many authors have proposed modal extensions for logic programming [4, 2, 1, 5, 12, 3, 9, 10]. There are two approaches: the direct approach and the translational approach. The first approach directly uses modalities, while the second one translates modal logic programs to classical logic pro',
+                                                                                                     'citStr' => '[4, 2, 1, 5, 12, 3, 9, 10]',
+                                                                                                     'startWordPosition' => '117',
+                                                                                                     'endWordPosition' => '124',
+                                                                                                     'position' => '791'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'position' => '1527',
+                                                                                                     'endWordPosition' => '249',
+                                                                                                     'citStr' => '[3]',
+                                                                                                     'startWordPosition' => '249',
+                                                                                                     'content' => "(e.g., in the debugging and interactive modes of programming). In the direct approach, the work by Balbiani et al [2] disallows 2 in bodies of program clauses and goals, and the work by Baldoni et al [3] disallows 3 in programs and goals. In the Molog system implemented by the group of Fari\x{2dc} nas del Cerro [4], universal modal operators in bodies of program clauses and goals are also translated away. "
+                                                                                                   }
+                                                                                                 ]
+                                                                                    },
+                                                                        'pages' => '52--66',
+                                                                        'date' => '1996',
+                                                                        'valid' => 'true',
+                                                                        'booktitle' => 'Joint International Conference and Symposium on Logic Programming,'
+                                                                      },
+                                                                      {
+                                                                        'contexts' => {
+                                                                                      'context' => [
+                                                                                                   {
+                                                                                                     'content' => 'plications of modal logic programming to AI. 1 Introduction Modal logics can be used to reason about knowledge, belief, actions, etc. Many authors have proposed modal extensions for logic programming [4, 2, 1, 5, 12, 3, 9, 10]. There are two approaches: the direct approach and the translational approach. The first approach directly uses modalities, while the second one translates modal logic programs to classical logic pro',
+                                                                                                     'startWordPosition' => '117',
+                                                                                                     'citStr' => '[4, 2, 1, 5, 12, 3, 9, 10]',
+                                                                                                     'position' => '791',
+                                                                                                     'endWordPosition' => '124'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'content' => " et al [2] disallows 2 in bodies of program clauses and goals, and the work by Baldoni et al [3] disallows 3 in programs and goals. In the Molog system implemented by the group of Fari\x{2dc} nas del Cerro [4], universal modal operators in bodies of program clauses and goals are also translated away. In [9], we developed a fixpoint semantics, the least model semantics, and an SLD-resolution calculus in a d",
+                                                                                                     'position' => '1634',
+                                                                                                     'endWordPosition' => '269',
+                                                                                                     'citStr' => '[4]',
+                                                                                                     'startWordPosition' => '269'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'content' => ", especially in practical issues. As far as we know, amongst the works by other authors that use the direct approach for modal logic programming, only the Molog system proposed by Fari\x{2dc} nas del Cerro [4] has been implemented. The current version of this system has, however, some drawbacks in design. It only says yes or no without giving computed answers. Molog uses a special predicate, named prolog, ",
+                                                                                                     'endWordPosition' => '559',
+                                                                                                     'position' => '3418',
+                                                                                                     'startWordPosition' => '559',
+                                                                                                     'citStr' => '[4]'
+                                                                                                   }
+                                                                                                 ]
+                                                                                    },
+                                                                        'rawString' => "Fari\x{2dc} nas del Cerro, L.: MOLOG: A System that Extends PROLOG with Modal Logic, New Generation Computing, 4, 1986, 35\x{2013}50.",
+                                                                        'authors' => {
+                                                                                     'author' => [
+                                                                                                 "Fari\x{2dc} nas del Cerro",
+                                                                                                 'L'
+                                                                                               ]
+                                                                                   },
+                                                                        'marker' => '4.',
+                                                                        'title' => 'MOLOG: A System that Extends PROLOG with Modal Logic,',
+                                                                        'valid' => 'true',
+                                                                        'volume' => '4',
+                                                                        'journal' => 'New Generation Computing,',
+                                                                        'date' => '1986',
+                                                                        'pages' => '35--50'
+                                                                      },
+                                                                      {
+                                                                        'title' => 'Multimodal Logic Programming Using Equational and Order-Sorted Logic,',
+                                                                        'marker' => '5.',
+                                                                        'authors' => {
+                                                                                     'author' => [
+                                                                                                 'F Debart',
+                                                                                                 'P Enjalbert',
+                                                                                                 'M Lescot'
+                                                                                               ]
+                                                                                   },
+                                                                        'rawString' => "Debart, F., Enjalbert, P., Lescot, M.: Multimodal Logic Programming Using Equational and Order-Sorted Logic, Theoretical Computer Science, 105, 1992, 141\x{2013}166.",
+                                                                        'contexts' => {
+                                                                                      'context' => {
+                                                                                                   'content' => 'plications of modal logic programming to AI. 1 Introduction Modal logics can be used to reason about knowledge, belief, actions, etc. Many authors have proposed modal extensions for logic programming [4, 2, 1, 5, 12, 3, 9, 10]. There are two approaches: the direct approach and the translational approach. The first approach directly uses modalities, while the second one translates modal logic programs to classical logic pro',
+                                                                                                   'endWordPosition' => '124',
+                                                                                                   'position' => '791',
+                                                                                                   'citStr' => '[4, 2, 1, 5, 12, 3, 9, 10]',
+                                                                                                   'startWordPosition' => '117'
+                                                                                                 }
+                                                                                    },
+                                                                        'pages' => '141--166',
+                                                                        'date' => '1992',
+                                                                        'journal' => 'Theoretical Computer Science,',
+                                                                        'volume' => '105',
+                                                                        'valid' => 'true'
+                                                                      },
+                                                                      {
+                                                                        'title' => 'First-Order Modal Logic,',
+                                                                        'marker' => '6.',
+                                                                        'authors' => {
+                                                                                     'author' => [
+                                                                                                 'M Fitting',
+                                                                                                 'R L Mendelsohn'
+                                                                                               ]
+                                                                                   },
+                                                                        'publisher' => 'Kluwer Academic Publishers,',
+                                                                        'rawString' => 'Fitting, M., Mendelsohn, R. L.: First-Order Modal Logic, Kluwer Academic Publishers, 1999.',
+                                                                        'contexts' => {
+                                                                                      'context' => {
+                                                                                                   'endWordPosition' => '1410',
+                                                                                                   'position' => '7589',
+                                                                                                   'citStr' => '[6, 7]',
+                                                                                                   'startWordPosition' => '1409',
+                                                                                                   'content' => " \x{3d5} \x{2192} \x{ac}2i \x{ac}\x{3d5} (for all 1 \x{2264} i \x{2264} m). To reflect properties of belief, one can extend K(m) with some of the following axioms (see [10] for the corresponding restrictions on the accessibility relations and [6, 7] for further readings on first-order modal logics): Name (D) (I) (4) (4s ) (5) (5s ) Schema 2i \x{3d5} \x{2192} \x{ac}2i \x{ac}\x{3d5} 2i \x{3d5} \x{2192} 2j \x{3d5} if i &gt; j 2 i \x{3d5} \x{2192} 2i 2i \x{3d5} 2 i \x{3d5} \x{2192} 2j 2i \x{3d5} \x{ac}2i \x{3d5} \x{2192} 2i \x{ac}2i \x{3d5} \x{ac}2i \x{3d5} \x{2192} 2j \x{ac}2i \x{3d5} Meaning"
+                                                                                                 }
+                                                                                    },
+                                                                        'date' => '1999',
+                                                                        'valid' => 'true'
+                                                                      },
+                                                                      {
+                                                                        'marker' => '7.',
+                                                                        'title' => 'Quantification in Modal Logic, in:',
+                                                                        'contexts' => {
+                                                                                      'context' => {
+                                                                                                   'citStr' => '[6, 7]',
+                                                                                                   'startWordPosition' => '1409',
+                                                                                                   'endWordPosition' => '1410',
+                                                                                                   'position' => '7589',
+                                                                                                   'content' => " \x{3d5} \x{2192} \x{ac}2i \x{ac}\x{3d5} (for all 1 \x{2264} i \x{2264} m). To reflect properties of belief, one can extend K(m) with some of the following axioms (see [10] for the corresponding restrictions on the accessibility relations and [6, 7] for further readings on first-order modal logics): Name (D) (I) (4) (4s ) (5) (5s ) Schema 2i \x{3d5} \x{2192} \x{ac}2i \x{ac}\x{3d5} 2i \x{3d5} \x{2192} 2j \x{3d5} if i &gt; j 2 i \x{3d5} \x{2192} 2i 2i \x{3d5} 2 i \x{3d5} \x{2192} 2j 2i \x{3d5} \x{ac}2i \x{3d5} \x{2192} 2i \x{ac}2i \x{3d5} \x{ac}2i \x{3d5} \x{2192} 2j \x{ac}2i \x{3d5} Meaning"
+                                                                                                 }
+                                                                                    },
+                                                                        'authors' => {
+                                                                                     'author' => 'J Garson'
+                                                                                   },
+                                                                        'rawString' => "Garson, J.: Quantification in Modal Logic, in: Handbook of Philosophical Logic, Volume II (F. Guenthner, D. Gabbay, Eds.), 1999, 249\x{2013}307.",
+                                                                        'date' => '1999',
+                                                                        'pages' => '249--307',
+                                                                        'booktitle' => 'Handbook of Philosophical Logic, Volume II',
+                                                                        'valid' => 'true'
+                                                                      },
+                                                                      {
+                                                                        'valid' => 'true',
+                                                                        'date' => '1987',
+                                                                        'contexts' => {
+                                                                                      'context' => {
+                                                                                                   'content' => "als are of a normal form but the language is as expressive as the general modal Horn fragment) and the semantics are formulated closely to the style of classical logic programming (as in Lloyd\x{2019}s book [8]). In [10], we generalized the methods and extended the results of [9] for multimodal logic programming, giving a general framework for developing semantics of multimodal logic programs and presenting",
+                                                                                                   'endWordPosition' => '430',
+                                                                                                   'position' => '2603',
+                                                                                                   'startWordPosition' => '430',
+                                                                                                   'citStr' => '[8]'
+                                                                                                 }
+                                                                                    },
+                                                                        'authors' => {
+                                                                                     'author' => 'J Lloyd'
+                                                                                   },
+                                                                        'publisher' => 'Springer-Verlag,',
+                                                                        'rawString' => 'Lloyd, J.: Foundations of Logic Programming, 2nd Edition, Springer-Verlag, 1987.',
+                                                                        'marker' => '8.',
+                                                                        'title' => 'Foundations of Logic Programming, 2nd Edition,'
+                                                                      },
+                                                                      {
+                                                                        'title' => 'A Fixpoint Semantics and an SLD-Resolution Calculus for Modal Logic Programs,',
+                                                                        'marker' => '9.',
+                                                                        'authors' => {
+                                                                                     'author' => 'L A Nguyen'
+                                                                                   },
+                                                                        'issue' => '1',
+                                                                        'rawString' => "Nguyen, L. A.: A Fixpoint Semantics and an SLD-Resolution Calculus for Modal Logic Programs, Fundamenta Informaticae, 55(1), 2003, 63\x{2013}100. For the mentioned logics, the rSat operator is either deterministic (for KD, KD45, and KD4s 5s ) or nondeterministic but with a low branching factor (2 for KD45(m) , 3 for S5, and m for KDI4s 5).",
+                                                                        'contexts' => {
+                                                                                      'context' => [
+                                                                                                   {
+                                                                                                     'content' => 'plications of modal logic programming to AI. 1 Introduction Modal logics can be used to reason about knowledge, belief, actions, etc. Many authors have proposed modal extensions for logic programming [4, 2, 1, 5, 12, 3, 9, 10]. There are two approaches: the direct approach and the translational approach. The first approach directly uses modalities, while the second one translates modal logic programs to classical logic pro',
+                                                                                                     'startWordPosition' => '117',
+                                                                                                     'citStr' => '[4, 2, 1, 5, 12, 3, 9, 10]',
+                                                                                                     'endWordPosition' => '124',
+                                                                                                     'position' => '791'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'content' => "sallows 3 in programs and goals. In the Molog system implemented by the group of Fari\x{2dc} nas del Cerro [4], universal modal operators in bodies of program clauses and goals are also translated away. In [9], we developed a fixpoint semantics, the least model semantics, and an SLD-resolution calculus in a direct way for modal logic programs in all of the basic serial2 monomodal logics. There are two impo",
+                                                                                                     'startWordPosition' => '285',
+                                                                                                     'citStr' => '[9]',
+                                                                                                     'endWordPosition' => '285',
+                                                                                                     'position' => '1733'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'content' => "ral modal Horn fragment) and the semantics are formulated closely to the style of classical logic programming (as in Lloyd\x{2019}s book [8]). In [10], we generalized the methods and extended the results of [9] for multimodal logic programming, giving a general framework for developing semantics of multimodal logic programs and presenting sound and complete SLD-resolution calculi for a number of useful mult",
+                                                                                                     'position' => '2673',
+                                                                                                     'endWordPosition' => '442',
+                                                                                                     'startWordPosition' => '442',
+                                                                                                     'citStr' => '[9]'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'content' => 'olog program files cannot be included in Molog programs. In this work, we present the design of our implemented modal logic programming system MProlog [11], whose theoretical foundations are our work [9, 10]. Our system is written in Prolog as a module for Prolog. Codes, libraries, and most features of Prolog can be used in MProlog programs in a pure way. The system contains a number of built-in SLD-reso',
+                                                                                                     'citStr' => '[9, 10]',
+                                                                                                     'startWordPosition' => '654',
+                                                                                                     'endWordPosition' => '655',
+                                                                                                     'position' => '3990'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'content' => " to define an SLD-resolution calculus for L-MProlog we need reversed analogues of the operators SatL and N FL . These operators are called the rSatL operator and the rN FL operator, respectively. See [10, 9] for formal definitions of the operators SatL , N FL , rSatL , and rN FL . The rSatL /rN FL operators are each specified by a finite set of rules of the form \x{3b1} \x{2190} \x{3b2}, where \x{3b1} and \x{3b2} are (schemata of) mod",
+                                                                                                     'position' => '12996',
+                                                                                                     'endWordPosition' => '2422',
+                                                                                                     'citStr' => '[10, 9]',
+                                                                                                     'startWordPosition' => '2421'
+                                                                                                   }
+                                                                                                 ]
+                                                                                    },
+                                                                        'pages' => '63--100',
+                                                                        'date' => '2003',
+                                                                        'volume' => '55',
+                                                                        'journal' => 'Fundamenta Informaticae,',
+                                                                        'valid' => 'true'
+                                                                      },
+                                                                      {
+                                                                        'contexts' => {
+                                                                                      'context' => [
+                                                                                                   {
+                                                                                                     'endWordPosition' => '3142',
+                                                                                                     'position' => '16152',
+                                                                                                     'citStr' => '[10]',
+                                                                                                     'startWordPosition' => '3142',
+                                                                                                     'content' => " two kinds of steps: a) resolving a goal with a program clause, b) resolving a goal with an rSatL /rN FL rule. SLD-refutation and computed answer are defined in the usual way. Using the framework, in [10] we have given sound and complete SLDresolution calculi for L-MProlog for all the modal logics of belief considered in this work. As an example, consider the goal G = \x{2190} 21 p(x) and the program P : \x{3d5}1 "
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'endWordPosition' => '3789',
+                                                                                                     'position' => '19629',
+                                                                                                     'citStr' => '[10]',
+                                                                                                     'startWordPosition' => '3789',
+                                                                                                     'content' => "d\x{201d}, bel for \x{201c}believes\x{201d}, and pos for \x{201c}possible\x{201d}. We use 4 : \x{3d5} to represent 4\x{3d5}. Notations of modal operators depend on how the base SLD-resolution calculus is defined. As another example, for MProlog-2 [10], which disallows existential modal operators in program clauses and goals, we represent 2i1 . . . 2ik as [I1, . . . , Ik] (see belief box.cal of [11]). Syntactically, an MProlog program is a Prolog p"
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'position' => '34703',
+                                                                                                     'endWordPosition' => '6262',
+                                                                                                     'citStr' => '[10]',
+                                                                                                     'startWordPosition' => '6262',
+                                                                                                     'content' => 'the multimodal logics of belief considered in this work. The multimodal logics of belief KDI4s , KDI4s 5, KDI45, KD4s 5s , KD4Ig 5a were first introduced and studied by us for modal logic programming [10]. Some of the implemented SLD-resolution calculi, e.g. the ones for KD, KD45, S5, KDI4s 5, KD4s 5s , KD45(m) , are very efficient6 . Our system is a tool for experimenting with applications of modal l'
+                                                                                                   }
+                                                                                                 ]
+                                                                                    },
+                                                                        'rawString' => "Nguyen, L. A.: Multimodal Logic Programming and Its Applications to Modal Deductive Databases, manuscript (served as a technical report), available on Internet at http://www.mimuw.edu.pl/\x{2dc}nguyen/papers.html, 2003.",
+                                                                        'valid' => 'true',
+                                                                        'authors' => {
+                                                                                     'author' => 'L A Nguyen'
+                                                                                   },
+                                                                        'date' => '2003',
+                                                                        'marker' => '10.',
+                                                                        'title' => "Multimodal Logic Programming and Its Applications to Modal Deductive Databases, manuscript (served as a technical report), available on Internet at http://www.mimuw.edu.pl/\x{2dc}nguyen/papers.html,"
+                                                                      },
+                                                                      {
+                                                                        'date' => '2004',
+                                                                        'marker' => '11.',
+                                                                        'title' => "Source Files, Calculi, and Examples of MProlog, available on Internet at http://www.mimuw.edu.pl/\x{2dc}nguyen/mprolog,",
+                                                                        'contexts' => {
+                                                                                      'context' => [
+                                                                                                   {
+                                                                                                     'content' => " of :-, and & instead of \x{2018},\x{2019}, which means that Prolog program files cannot be included in Molog programs. In this work, we present the design of our implemented modal logic programming system MProlog [11], whose theoretical foundations are our work [9, 10]. Our system is written in Prolog as a module for Prolog. Codes, libraries, and most features of Prolog can be used in MProlog programs in a pure wa",
+                                                                                                     'endWordPosition' => '647',
+                                                                                                     'position' => '3938',
+                                                                                                     'citStr' => '[11]',
+                                                                                                     'startWordPosition' => '647'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'endWordPosition' => '750',
+                                                                                                     'position' => '4583',
+                                                                                                     'citStr' => '[11]',
+                                                                                                     'startWordPosition' => '750',
+                                                                                                     'content' => 'pistemic states of agents in multi-agent systems. Due to the lack of space, we will not discuss implementation details. The design of MProlog presented here together with comments given in code files [11] is sufficient to understand the implementation of the system. We assume that the reader is familiar with the classical SLD-resolution calculus and Prolog. 2 2.1 Preliminaries Syntax and Semantics of '
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'position' => '16897',
+                                                                                                     'endWordPosition' => '3306',
+                                                                                                     'startWordPosition' => '3306',
+                                                                                                     'citStr' => '[11]',
+                                                                                                     'content' => " \x{3d5}3 \x{2190} hXi1 s(a) \x{3d5}4 empty clause \x{3d5}4 6 MGUs {x1 /x} {x5 /x} {x7 /x} {x/a, Y /s(a)} {X/s(a)} 4 Design of MProlog Starting from the purely logical formalism of MProlog, we have built a real system for it [11]. The implemented system adds extra features to the purely logical formalism in order to increase usefulness of the language. It is written in Prolog and can run in SICStus Prolog and SWI-Prolog. From"
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'content' => 'lus is defined. As another example, for MProlog-2 [10], which disallows existential modal operators in program clauses and goals, we represent 2i1 . . . 2ik as [I1, . . . , Ik] (see belief box.cal of [11]). Syntactically, an MProlog program is a Prolog program. Modal fragments in an MProlog program may contain directives and clauses. Each clause in a modal fragment is of one of the following forms: Co',
+                                                                                                     'citStr' => '[11]',
+                                                                                                     'startWordPosition' => '3818',
+                                                                                                     'endWordPosition' => '3818',
+                                                                                                     'position' => '19779'
+                                                                                                   },
+                                                                                                   {
+                                                                                                     'content' => 'd argument). mconsult(ProgramFile) is treated as mconsult(ProgramFile, classical). Goals involved with modal logics can be asked using the predicate mcall/2, where the second argument indicates 4 See [11] for predicates of the remaining groups. 10 the calculus in which the goal is asked. If a default calculus is set using the current calculus option, then mcall/1 can be used instead of mcall/2. The pr',
+                                                                                                     'citStr' => '[11]',
+                                                                                                     'startWordPosition' => '5221',
+                                                                                                     'position' => '28343',
+                                                                                                     'endWordPosition' => '5221'
+                                                                                                   }
+                                                                                                 ]
+                                                                                    },
+                                                                        'authors' => {
+                                                                                     'author' => 'L A Nguyen'
+                                                                                   },
+                                                                        'valid' => 'true',
+                                                                        'rawString' => "Nguyen, L. A.: Source Files, Calculi, and Examples of MProlog, available on Internet at http://www.mimuw.edu.pl/\x{2dc}nguyen/mprolog, 2004."
+                                                                      },
+                                                                      {
+                                                                        'date' => '1994',
+                                                                        'pages' => '365--378',
+                                                                        'booktitle' => "Proceedings of JELIA\x{2019}94, LNCS",
+                                                                        'valid' => 'true',
+                                                                        'volume' => '838',
+                                                                        'marker' => '12.',
+                                                                        'title' => 'How to Use Modalities and Sorts in Prolog,',
+                                                                        'rawString' => "Nonnengart, A.: How to Use Modalities and Sorts in Prolog, Proceedings of JELIA\x{2019}94, LNCS 838 (C. MacNish, D. Pearce, L. M. Pereira, Eds.), Springer, 1994, 365\x{2013}378.",
+                                                                        'authors' => {
+                                                                                     'author' => 'A Nonnengart'
+                                                                                   },
+                                                                        'publisher' => 'Eds.), Springer,'
+                                                                      }
+                                                                    ]
+                                                      }
+                                    },
+                         'SectLabel' => {
+                                        'variant' => {
+                                                     'figure' => [
+                                                                 {
+                                                                   'content' => '
+?
+1
+',
+                                                                   'confidence' => '0.492695'
+                                                                 },
+                                                                 {
+                                                                   'content' => '
+Name
+(D)
+(I)
+(4)
+(4s )
+(5)
+(5s )
+Schema
+',
+                                                                   'confidence' => '0.8591015'
+                                                                 }
+                                                               ],
+                                                     'bodyText' => [
+                                                                   {
+                                                                     'content' => '
+ul. Banacha 2, 02-097 Warsaw, Poland
+nguyen@mimuw.edu.pl
+Abstract. We present the design of our implemented modal logic programming system MProlog. This system is written in Prolog as a module for Prolog. Codes, libraries, and most features of Prolog can be used
+in MProlog programs. The system contains a number of built-in SLDresolution calculi for modal logics, including calculi for useful multimodal
+logics of belief. It is a tool to experiment with applications of modal logic
+programming to AI.
+',
+                                                                     'confidence' => '0.869402333333333'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+Introduction
+Modal logics can be used to reason about knowledge, belief, actions, etc. Many
+authors have proposed modal extensions for logic programming [4, 2, 1, 5, 12, 3,
+9, 10]. There are two approaches: the direct approach and the translational approach. The first approach directly uses modalities, while the second one translates modal logic programs to classical logic programs. The works by Akama [1],
+Debart et al [5], and Nonnengart [12] use the translational approach, while the
+works by Fari\x{2dc}
+nas del Cerro [4], Balbiani et al [2], Baldoni et al [3], and our works
+[9, 10] use the direct approach.
+In modal logic programming, it seems more intuitive and convenient to use
+modalities in a direct way1 (e.g., in the debugging and interactive modes of
+programming). In the direct approach, the work by Balbiani et al [2] disallows
+2 in bodies of program clauses and goals, and the work by Baldoni et al [3]
+disallows 3 in programs and goals. In the Molog system implemented by the
+group of Fari\x{2dc}
+nas del Cerro [4], universal modal operators in bodies of program
+clauses and goals are also translated away.
+In [9], we developed a fixpoint semantics, the least model semantics, and an
+SLD-resolution calculus in a direct way for modal logic programs in all of the basic serial2 monomodal logics. There are two important properties of our approach
+in [9]: no special restriction on occurrences of 2 and 3 is required (programs
+",
+                                                                     'confidence' => '0.962550947368421'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+In J.J. Alferes and J.A. Leite (Eds.): Logics in Artificial Intelligence, 9th European
+Conference, JELIA 2004, Lisbon, Portugal, September 27-30, 2004, Proceedings.
+LNCS 3229, pages 266\x{2013}278, Springer, 2004.
+Somehow one still has to use skolemization or a labeling technique for 3.
+A monomodal logic is serial if it contains the axiom 2\x{3d5} \x{2192} 3\x{3d5}.
+and goals are of a normal form but the language is as expressive as the general
+modal Horn fragment) and the semantics are formulated closely to the style of
+classical logic programming (as in Lloyd\x{2019}s book [8]). In [10], we generalized the
+methods and extended the results of [9] for multimodal logic programming, giving a general framework for developing semantics of multimodal logic programs
+and presenting sound and complete SLD-resolution calculi for a number of useful
+multimodal logics of belief, which will be considered in this work.
+Despite that the theory of modal logic programming has been studied in a
+considerable number of works, it has not received much attention in practice.
+But if we want to use modal logics for practical applications, then modal logic
+programming deserves for further investigations, especially in practical issues.
+As far as we know, amongst the works by other authors that use the direct
+approach for modal logic programming, only the Molog system proposed by
+Fari\x{2dc}
+nas del Cerro [4] has been implemented. The current version of this system
+has, however, some drawbacks in design. It only says yes or no without giving
+computed answers. Molog uses a special predicate, named prolog, to call formulas
+of Prolog, which is undesirable when the amount of Prolog code is not small.
+Molog uses <-- instead of :-, and & instead of \x{2018},\x{2019}, which means that Prolog
+program files cannot be included in Molog programs.
+In this work, we present the design of our implemented modal logic programming system MProlog [11], whose theoretical foundations are our work [9, 10].
+Our system is written in Prolog as a module for Prolog. Codes, libraries, and
+most features of Prolog can be used in MProlog programs in a pure way. The
+system contains a number of built-in SLD-resolution calculi for modal logics, including calculi for multimodal logics intended for reasoning about multi-degree
+belief, for use in distributed systems of belief, or for reasoning about epistemic
+states of agents in multi-agent systems.
+Due to the lack of space, we will not discuss implementation details. The
+design of MProlog presented here together with comments given in code files [11]
+is sufficient to understand the implementation of the system. We assume that
+the reader is familiar with the classical SLD-resolution calculus and Prolog.
+",
+                                                                     'confidence' => '0.996380235294118'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+A language for quantified multimodal logics is an extension of the language
+of classical predicate logic with modal operators 2i and 3i , for 1 \x{2264} i \x{2264} m
+(where m is fixed). If m = 1 then we ignore the subscript i and write 2 and
+3. The operators 2i are called universal modal operators, while 3i are called
+existential modal operators. Terms and formulas are defined in the usual way,
+with an emphasis that if \x{3d5} is a formula then 2i \x{3d5} and 3i \x{3d5} are also formulas.
+A Kripke frame is a tuple hW, \x{3c4}, R1 , . . . , Rm i, where W is a nonempty set of
+possible worlds, \x{3c4} \x{2208} W is the actual world, and Ri is a binary relation on W ,
+called the accessibility relation for the modal operators 2i , 3i . If Ri (w, u) holds
+then we say that the world u is accessible from the world w via Ri .
+",
+                                                                     'confidence' => '0.98538'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.997611',
+                                                                     'content' => "
+A fixed-domain Kripke model with rigid terms, hereafter simply called a
+Kripke model or just a model, is a tuple M = hD, W, \x{3c4}, R1 , . . . , Rm , \x{3c0}i, where
+D is a set called the domain, hW, \x{3c4}, R1 , . . . , Rm i is a Kripke frame, and \x{3c0} is an
+interpretation of constant symbols, function symbols and predicate symbols. For
+a constant symbol a, \x{3c0}(a) is an element of D. For an n-ary function symbol f ,
+\x{3c0}(f ) is a function from Dn to D. For an n-ary predicate symbol p and a world
+w \x{2208} W , \x{3c0}(w)(p) is an n-ary relation on D.
+A variable assignment V w.r.t. a Kripke model M is a function that maps
+each variable to an element of the domain of M . The value of tM [V ] for a term
+t is defined as usual.
+Given some Kripke model M = hD, W, \x{3c4}, R1 , . . . , Rm , \x{3c0}i, some variable assignment V , and some world w \x{2208} W , the satisfaction relation M, V, w  \x{3c8} for a
+formula \x{3c8} is defined as follows:
+"
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+iff for all v \x{2208} W such that Ri (w, v), M, V, v  \x{3d5};
+M, V, w  \x{2200}x.\x{3d5}
+iff for all a \x{2208} D, (M, V 0 , w  \x{3d5}),
+where V 0 (x) = a and V 0 (y) = V (y) for y 6= x;
+and as usual for other cases (treating 3i \x{3d5} as \x{ac}2i \x{ac}\x{3d5}, and \x{2203}x.\x{3d5} as \x{ac}\x{2200}x.\x{ac}\x{3d5}). We
+say that M satisfies \x{3d5}, or \x{3d5} is true in M , and write M  \x{3d5}, if M, V, \x{3c4}  \x{3d5} for
+every V . For a set \x{393} of formulas, we call M a model of \x{393} and write M  \x{393} if
+M  \x{3d5} for every \x{3d5} \x{2208} \x{393} .
+",
+                                                                     'confidence' => '0.8906985'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+If as the class of admissible interpretations we take the class of all Kripke models
+(with no restrictions on the accessibility relations) then we obtain a quantified
+multimodal logic which has a standard Hilbert-style axiomatization denoted by
+K(m) . Normal modal logics are extensions of K(m) using additional axioms. A
+modal logic L is serial if it contains the axiom 2i \x{3d5} \x{2192} \x{ac}2i \x{ac}\x{3d5} (for all 1 \x{2264} i \x{2264} m).
+To reflect properties of belief, one can extend K(m) with some of the following
+axioms (see [10] for the corresponding restrictions on the accessibility relations
+and [6, 7] for further readings on first-order modal logics):
+",
+                                                                     'confidence' => '0.999519125'
+                                                                   },
+                                                                   {
+                                                                     'content' => '
+subscript indicates degree of belief
+belief satisfies positive introspection
+belief satisfies strong positive introspection
+belief satisfies negative introspection
+belief satisfies strong negative introspection
+By adding appropriate combinations of these axioms to K(m) , we obtain
+the modal logics KDI4, KDI4s , KDI45, KDI4s 5 for reasoning about multidegree belief, the modal logic KD4s 5s for use in distributed systems of belief,
+and the modal logic KD45(m) for reasoning about epistemic states of agents in
+',
+                                                                     'confidence' => '0.999264375'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+multi-agent systems. (We use a subscript in KD45(m) to distinguish it from the
+monomodal logic KD45.) In the mentioned modal logics of multi-degree belief,
+the axiom (I) gives 2i \x{3d5} the meaning \x{201c}\x{3d5} is believed up to degree i\x{201d}; while in the
+logics KD4s 5s and KD45(m) , the formula 2i \x{3d5} means \x{201c}the agent i believes in
+\x{3d5}\x{201d}. For reasoning about belief and common belief of groups of agents, there is
+a multimodal logic denoted by KD4Ig 5a which combines features of KD45(m)
+and KDI4. For further descriptions of the mentioned logics, see [10].
+",
+                                                                     'confidence' => '0.998915142857143'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+In this subsection, we define a modal logic programming language called MProlog, which is a purely logical formalism. Its implementation as an extension of
+Prolog has a specific syntax and will be studied in Section 4.
+A modality is a (possibly empty) sequence of modal operators. A universal
+modality is a modality which contains only universal modal operators. We use
+4 to denote a modality and  to denote a universal modality. Similarly as in
+classical logic programming, we use a clausal form (\x{3d5} \x{2190} \x{3c8}1 , . . . , \x{3c8}n ) to denote
+the formula \x{2200}((\x{3d5} \x{2228} \x{ac}\x{3c8}1 . . . \x{2228} \x{ac}\x{3c8}n )). We use E to denote a classical atom and
+A, B1 , . . . , Bn to denote formulas of the form E, 2i E, or 3i E.
+A program clause is a formula of the form (A \x{2190} B1 , . . . , Bn ), where  is
+a universal modality and n \x{2265} 0.  is called the modal context, A the head, and
+B1 , . . . , Bn the body of the program clause.
+An MProlog program is a finite set of program clauses. An MProlog goal
+atom is a formula of the form E or 3i E, where  is a universal modality.
+An MProlog goal is a formula written in the clausal form \x{2190} \x{3b1}1 , . . . , \x{3b1}k , where
+each \x{3b1}i is an MProlog goal atom.
+It is shown in [10] that MProlog has the same expressiveness power as the
+general Horn fragment in normal modal logics. For a specific logic L, we may
+adopt some restrictions on modal contexts of MProlog program clauses and
+MProlog goals and call the obtained language L-MProlog. Such restrictions either
+follow from equivalencies in L or are acceptable from the practical of view, and
+furthermore, they do not reduce expressiveness of the language.
+For example, in KDI4s 5 we have the equivalence \x{2207}\x{2207}0 \x{3d5} \x{2261} \x{2207}0 \x{3d5}, where \x{2207}
+and \x{2207}0 are modal operators. Hence we can assume that the modal context of an
+KDI4s 5-MProlog program clause has length 1 or 0, and an KDI4s 5-MProlog
+goal has goal atoms of the form E, 2i E, or 3i E with E being a classical atom.
+See [10] for restrictions of L-MProlog in the other modal logics of belief.
+",
+                                                                     'confidence' => '0.998198076923077'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.9989828',
+                                                                     'content' => '
+A Framework of SLD-Resolution for MProlog
+In [10], we give a general framework for developing fixpoint semantics, least
+model semantics, and SLD-resolution calculi for L-MProlog, where L is a serial modal logic whose frame restrictions, except seriality, are Horn clauses (in
+particular, L can be any one of the modal logics of belief considered in this paper). In this section, we outline the fragment involving SLD-resolution of that
+framework. For fixpoint semantics, the reader is referred to [10].
+'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+A modal operator is now 2i , 3j , or hSik , where hSik is a 3k labeled by S
+which is either a classical atom or a variable for classical atoms (called an atom
+variable). For further information on labeled modal operators, see [10].
+We use \x{2207} and \x{2207}0 to denote modal operators, 4 to denote a modality (which
+now may contain labeled modal operators). A modal atom is a formula of the
+form 4E. A simple modal atom is a formula of the form E or \x{2207}E. We use A,
+B to denote simple modal atoms, and \x{3b1}, \x{3b2} to denote modal atoms.
+There may exist a compact form for modalities in L. For each specific modal
+logic L, we define the L-normal form of modalities. For example, a modality is
+in KDI4s 5-normal form if its length is 0 or 1. It is possible that no restriction
+is adopted for L-normal form of modalities. A modality is in L-normal labeled
+form if it is in L-normal form and does not contain unlabeled existential modal
+operators 3i . A modal atom 4E is in L-normal (labeled) form if 4 is in Lnormal (labeled) form. Given a ground modal atom not in L-normal form, the
+N FL operator converts it to L-normal form.
+Given a modal atom \x{3b1}, one can derive other modal atoms from \x{3b1} using
+axioms of L. The corresponding operator is called the SatL operator. The \x{201c}direct
+consequences\x{201d} operator TL,P is defined using SatL and N FL . An SLD-resolution
+calculus can be viewed as a reversed analogue of a direct consequences operator.
+Hence, to define an SLD-resolution calculus for L-MProlog we need reversed
+analogues of the operators SatL and N FL . These operators are called the rSatL
+operator and the rN FL operator, respectively. See [10, 9] for formal definitions
+of the operators SatL , N FL , rSatL , and rN FL .
+The rSatL /rN FL operators are each specified by a finite set of rules of the
+form \x{3b1} \x{2190} \x{3b2}, where \x{3b1} and \x{3b2} are (schemata of) modal atoms. The rules are used
+as meta-clauses (i.e. schemata of clauses) in SLD-derivations. Such rules can be
+accompanied by conditions which specify when the rule can be used.
+As an example, for L = KDI4s 5, the rN FL operator is specified by the
+only rule \x{2207}E \x{2190} hXii \x{2207}E, and the rSatL operator is specified by three rules:
+(a) \x{2207}\x{2207}0 E \x{2190} \x{2207}0 E, (b) 3i E \x{2190} 3j E if i &gt; j, (c) 3i E \x{2190} hXii E; where X is a
+fresh3 atom variable. We will use these rules for the example in the next page.
+Resolvents of a goal \x{2190} \x{3b1}1 , . . . , \x{3b1}k and an rSatL /rN FL rule \x{3b1} \x{2190} \x{3b2} are
+defined in the usual way. For example, resolving \x{2190} 21 32 p(x) with the rule
+\x{2207}\x{2207}0 E \x{2190} \x{2207}0 E results in \x{2190} 32 p(x), since \x{2207} is instantiated to 21 , and \x{2207}0 is
+instantiated to 32 .
+For each specific modal logic L, we define a pre-order L to compare
+modal operators. For example, for L = KDI4s 5, the pre-order L is the
+least reflexive and transitive binary relation between modal operators such that:
+3i L hSii L 2i , and if i < j then 2i L 2j and 3j L 3i . If \x{2207} L \x{2207}0 then
+we say that \x{2207} is an L-instance of \x{2207}0 . We say that an atom 4E is an L-instance
+of 40 E 0 if 4 and 40 have the same length k and there exists a substitution \x{3b8}
+such that E = E 0 \x{3b8} and for any 1 \x{2264} i \x{2264} k, the modal operator in position i of 4
+is an L-instance of the modal operator in position i of 40 \x{3b8}.
+",
+                                                                     'confidence' => '0.948137142857143'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.835043',
+                                                                     'content' => '
+This means that standardizing is also needed for atom variables.
+'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.87915936',
+                                                                     'content' => "
+The forward labeled form of an atom \x{3b1} is the atom \x{3b1}0 such that if \x{3b1} is of the
+form 43i E then \x{3b1}0 = 4hEii E, else \x{3b1}0 = \x{3b1}. For example, the forward labeled
+form of 31 s(a) is hs(a)i1 s(a).
+If  and 0 are universal modalities, and furthermore,  is a modal context
+of an L-MProlog program clause, then we say that 0 is an L-context instance
+of  if \x{3d5} \x{2192} 0 \x{3d5} is a theorem in L for an arbitrary \x{3d5}. For example, 21 is a
+KDI4s 5-context instance of 22 .
+Let G = \x{2190} \x{3b1}1 , . . . , \x{3b1}i , . . . , \x{3b1}k be a goal and \x{3d5} = (A \x{2190} B1 , . . . , Bn ) a
+program clause. Then G0 is derived from G and \x{3d5} in L using mgu \x{3b8}, and called
+an L-resolvent of G and \x{3d5}, if the following conditions hold:
+\x{2013} \x{3b1}i = 40 A0 , with 40 in L-normal labeled form, is called the selected atom.
+\x{2013} 40 is an L-instance of 0 which is an L-context instance of .
+\x{2013} \x{3b8} is an mgu such that: A0 \x{3b8} has the same classical atom as A\x{3b8}, and A0 \x{3b8} is an
+L-instance of the forward labeled form of A\x{3b8}.
+\x{2013} G0 is the goal \x{2190} (\x{3b1}1 , . . . , \x{3b1}i\x{2212}1 , 40 B1 , . . . , 40 Bn , \x{3b1}i+1 , . . . , \x{3b1}k )\x{3b8}.
+For example, the unique KDI4s 5-resolvent of \x{2190} 21 p(x) and 22 (p(x) \x{2190} 32 q(x))
+is \x{2190} 21 32 q(x) (here,  = 22 and 40 = 0 = 21 ). As another example, the
+unique KDI4s 5-resolvent of \x{2190} hY i1 hXi1 r(x), hXi1 s(x) and 21 (21 r(x) \x{2190} s(x))
+is \x{2190} hY i1 s(x), hXi1 s(x) (here,  = 21 and 40 = 0 = hY i1 ).
+SLD-derivation is defined using two kinds of steps: a) resolving a goal with a
+program clause, b) resolving a goal with an rSatL /rN FL rule. SLD-refutation
+and computed answer are defined in the usual way.
+Using the framework, in [10] we have given sound and complete SLDresolution calculi for L-MProlog for all the modal logics of belief considered
+in this work.
+As an example, consider the goal G = \x{2190} 21 p(x) and the program P :
+"
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+Here is an SLD-refutation of P \x{222a} {G} in L = KDI4s 5:
+",
+                                                                     'confidence' => '0.685543'
+                                                                   },
+                                                                   {
+                                                                     'content' => '
+Starting from the purely logical formalism of MProlog, we have built a real
+system for it [11]. The implemented system adds extra features to the purely
+logical formalism in order to increase usefulness of the language. It is written
+in Prolog and can run in SICStus Prolog and SWI-Prolog. From now on we use
+MProlog to refer to the implemented system.
+MProlog is designed as an extension of Prolog. This means that we can use
+Prolog codes, libraries and most features of Prolog in MProlog programs. This
+gives MProlog capabilities for real applications. MProlog is implemented as a
+module for Prolog and does not have its own running environment. It provides
+instead a list of built-in predicates to be used in Prolog.
+',
+                                                                     'confidence' => '0.9961071'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+Syntax of MProlog Programs
+In MProlog, there are three kinds of predicates: classical predicates, modal predicates, and classical predicates which are defined using modal formulas. Predicates
+of the last kind are called dum predicates. The semantics of classical predicates
+and dum predicates does not depend on worlds in Kripke models. If E is a
+classical atom of a classical predicate or a dum predicate then 4E \x{2261} E for every modality 4. An MProlog program consists of modal fragments and classical
+fragments (in an arbitrary number and order). Predicates defined in classical
+fragments are classical predicates. Dum predicates are declared in an MProlog
+program as follows
+:- dum pred P red1 , . . . , P redn .
+where each P redi is a pair N amei /Arityi . Dum predicates are defined in modal
+fragments by clauses of the form E :- Body, where E is a classical atom. A predicate defined in a modal fragment and not declared earlier as a dum predicate is
+a modal predicate.
+From now on, by a calculus we mean an SLD-resolution calculus for MProlog.
+An MProlog program may use different calculi, as explained in Section 5. In an
+MProlog program, a modal fragment starts with a declaration of the form:
+:- calculus Cal1 , . . . , Caln .
+where Cal1 , . . . , Caln are names of calculi. These calculi are called the calculi of
+the fragment. If an MProlog program is loaded by mconsult(File,Cal) then the
+program in File is treated as if it begins with
+:- calculus Cal.
+A modal fragment ends either by a declaration of another modal fragment, or
+by the end of the program, or by one of the two following declarations:
+:- calculus classical.
+:- end.
+In MProlog, modalities are represented as lists, e.g., as follows:
+",
+                                                                     'confidence' => '0.97071672'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+Here, b stands for \x{201c}box\x{201d}, d for \x{201c}diamond\x{201d}, bel for \x{201c}believes\x{201d}, and pos for \x{201c}possible\x{201d}. We use 4 : \x{3d5} to represent 4\x{3d5}. Notations of modal operators depend
+on how the base SLD-resolution calculus is defined. As another example, for
+MProlog-2 [10], which disallows existential modal operators in program clauses
+and goals, we represent 2i1 . . . 2ik as [I1, . . . , Ik] (see belief box.cal of [11]).
+Syntactically, an MProlog program is a Prolog program. Modal fragments in
+an MProlog program may contain directives and clauses. Each clause in a modal
+fragment is of one of the following forms:
+Context : (Head :- Body).
+Head :- Body.
+where Context is a list representing a modality, Head is of the form E or M : E,
+where E is a classical atom (in the sense of Prolog) and M is a list containing
+one modal operator. All clauses in a modal fragment are declared to all of the
+calculi of the fragment.
+",
+                                                                     'confidence' => '0.922837384615385'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.9874858',
+                                                                     'content' => '
+Syntax of SLD-Resolution Calculi for MProlog
+SLD-resolution calculi for MProlog are specified using the framework given in
+Section 3 and written in Prolog. An SLD-resolution calculus for L contains
+rSatL /rN FL rules, definitions of auxiliary predicates, and definitions for the
+following required predicates:
+'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.996580933333333',
+                                                                     'content' => "
+If the option check in two steps of the defined calculus is set to true, then
+instead of the last three predicates of the above list, the calculus must implement
+two predicates with name prefixed by pre check or post check for each of the
+replaced predicates.
+Let us discuss the usefulness of the check in two steps option. Suppose that
+we want to reason about multi-degree belief. We represent, e.g., 2i (p(x) \x{2190} q(x))
+by [bel(I)]: (p(X) :- q(X)). Thus we use variables like I for degrees of belief.
+Sometimes it is better to delay instantiating such variables to concrete values in
+order to eliminate branching. If we want to allow users to have ability to turn
+on/off this option of delaying, then the defined calculus should be designed with
+the check in two steps option turned on. The intention of pre check predicates is
+to check the involved condition as much as possible without generating branch
+points and to pass unchecked fragments of the condition to post check predicates,
+which will be fired latter. In Section 5, we will describe the functioning of those
+predicates in the MProlog interpreter.
+"
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.9883448',
+                                                                     'content' => '
+A resolution cycle is a derivation consisting of a sequence of applications of
+rSatL /rN FL rules and an application of a program clause. To create an ability
+to reduce nondeterminism, we provide 4 categories (kinds) of rules: pre rSat,
+rSat, post rSat, and rNF. Informally, operators pre rSat and post rSat are deterministic, while operators rSat and rNF are nondeterministic. This means that
+when the system tries to resolve a modal atom using an operator of the category
+pre rSat or post rSat, the first applicable rule of the category will be used, and
+when the system wants to use rSat (resp. rNF), different sequences of rSat rules
+(resp. rNF rules) will be tried. Lengths of such sequences of rSat rules (resp. rNF
+rules) are restricted by the option limit rSat (resp. limit rNF) of the calculus.
+Rules of the mentioned categories are of one of the following forms:
+'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+AtomIn and AtomOut are atoms of the form M : E, where M (standing for
+a modality) and E (standing for a classical atom) may be variables in Prolog,
+and M may be also a list. RuleName is a name in Prolog. PreCondition and
+PostComputation are (possibly empty) sequences of formulas in Prolog separated
+by \x{2018},\x{2019}. AtomOut is called the atom out of the rule. It is the first outer (w.r.t. \x{2018},\x{2019})
+atom of the form M : E of the body of the rule. Names of rules are unique. If a
+rule is declared without a name, it will be given a unique name by the system.
+We give below an example rule, a version of : 3i E \x{2190} 3j E if i &gt; j.
+",
+                                                                     'confidence' => '0.963992'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.99511619047619',
+                                                                     'content' => '
+pre compare deg(Cal, I &gt; J), [pos(J)]:E, post compare deg(Cal, I &gt; J)).
+As shown in the above example, designers of calculi have access to the history
+of rules called in the current resolution cycle. Such a history for a given category
+of rules is obtained by
+get calling history(RuleCategory, Calculus, CalledAtom, RuleNames)
+where the last three arguments are outputs. RuleNames is the list of names of
+rules of the category RuleCategory which have been applied, in the reverse order,
+in the current resolution cycle for the beginning atom CalledAtom .
+Syntactically, rules are clauses in Prolog. They are defined as usual clauses.
+Rules are declared to calculi either by a section of rules or by a directive. A
+section of rules is a list of (definitions of) rules bounded by directives. A directive
+opening a section of rules is of the following form:
+:- RuleCategory Cal1 , . . . , Caln .
+where RuleCategory is one of pre rSat, rSat, post rSat, rNF; and Cal1 , . . . , Caln
+are names of calculi, to which the rules in the section are declared. A section of
+rules is closed by any directive in Prolog or by the end of the main file. Rules
+of the same category can also be declared to a calculus using a directive of the
+following form:
+:- set list of mrules(Calculus, RuleCategory, ListOfRuleNames).
+Some options are automatically created with default values for each loaded
+calculus. A definition of a calculus can change values of those options using
+'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.9217855',
+                                                                     'content' => '
+set option(Option, Calculus, Value) and set new options for itself (e.g., a numeric
+option like max modal index is needed for modal logics of multi-degree belief).
+'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.9160752',
+                                                                     'content' => '
+Options and Built-in Predicates of MProlog
+Before listing built-in predicates of MProlog, we give a list of options of MProlog,
+which may affect the way the system interprets MProlog programs. There are
+two kinds of options: options for calculi, and options for the system. Setting
+values of options is done by the following predicates:
+'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.987017266666667',
+                                                                     'content' => "
+There are the following built-in options for calculi: limit modality length (default: 4), limit rSat (default: 3), limit rNF (default: 1), use calling history (default: false), check in two steps (default: false). The limit modality length option
+is used to restrict lengths of modalities that may appear in derivations. The
+options limit rSat and limit rNF have been described in the previous subsection. For some built-in calculi, those numeric limits are firmly set, as they follow
+from the nature of the base modal logic. In general, they are used to restrict the
+search space and may affect completeness of the calculus. The boolean option
+use calling history should be turned on if rules of the calculus use the history of
+rules called in the current resolution cycle. The boolean option check in two steps
+has been discussed in the previous subsection.
+The boolean option loop checking is a useful option of the system. If it is
+turned on, the MProlog interpreter will check whether the current modal atom
+to be resolved has already appeared in the current derivation in order to prevent
+infinite loops. There are also other options of the system: loop checking stack size
+(default: 300), random selection of rules (default: false), debug (default: false),
+current calculus (default: classical), and priority list of calculi (default not set).
+There are three groups of built-in predicates which are useful for users: main
+predicates (for consulting, calling, and tracing), predicates for getting and displaying the status of the system, and predicates for dynamic modification of
+programs. We list here only main predicates of the system4 :
+consult calculi(Files),
+mconsult(ProgramFile, Calculus), mconsult(ProgramFile),
+mcall(Goal, Calculus),
+mcall(Goal),
+mtrace,
+nomtrace.
+Our MProlog module can be loaded by consulting the file \x{201c}mprolog.pl\x{201d} of the
+package. The user can then load SLD-resolution calculi for modal logics using
+the predicate consult calculi, whose argument may be a file name or a list of file
+names. The user can consult MProlog programs using the predicate mconsult/2
+(see Section 4.1 for the meaning of the second argument). mconsult(ProgramFile)
+is treated as mconsult(ProgramFile, classical). Goals involved with modal logics
+can be asked using the predicate mcall/2, where the second argument indicates
+"
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.916371',
+                                                                     'content' => '
+See [11] for predicates of the remaining groups.
+'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.966531666666667',
+                                                                     'content' => '
+the calculus in which the goal is asked. If a default calculus is set using the current calculus option, then mcall/1 can be used instead of mcall/2. The predicates
+mtrace and nomtrace are used to turn on and off the trace mode for MProlog
+(which concentrates on modal formulas and is not the trace mode of Prolog).
+'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.981213294117647',
+                                                                     'content' => "
+The MProlog Interpreter
+The MProlog interpreter is realized by the predicate mcall(Goal, Calculus),
+which initiates some variables and then calls mcall (Goal, Calculus). In this
+section, we describe in detail the latter predicate, ignoring some aspects like
+loop checking, updating the history of called rules, or effects of options.
+The predicate of the argument Goal belongs to one of the following groups:
+control predicates5 (\\+, \x{2018};\x{2019}, \x{2018},\x{2019}, \x{2212}&gt;, if/3), classical predicates, dum predicates,
+and modal predicates.
+If Goal is an atom of a classical predicate, then mcall (Goal, ) is defined as Goal itself. Formulas PreCondition and PostComputation from a rule
+Head :- PreCondition, AtomOut, PostComputation are treated as atoms of classical predicates, despite that they may be complicated formulas.
+Because dum predicates can be defined in different calculi and their semantics
+does not depend on worlds in Kripke models, they can be used to mix different
+calculi. If Goal is an atom of a dum predicate then to resolve mcall (Goal, Calculus), the interpreter will try to resolve Goal first in Calculus and then in different
+calculi as well. The list of those latter calculi is determined by the value of the
+priority list of calculi option if it is set, and by the list of all calculi otherwise;
+both cases exclude Calculus (the argument). Resolving Goal of a dum predicate
+in a calculus Cal is done as follows: select a modal clause Head :- Body of Cal,
+unify Goal with Head, and then call mcall (Body, Cal).
+For the case of modal atoms, we first discuss some auxiliary predicates.
+Resolving a modal atom Goal with a rule
+Head :- PreCondition, AtomOut, PostComputation
+is done by unifying Goal with Head, executing PreCondition, and returning AtomOut and PostComputation as outputs. This task is done by the predicate
+solve using mrule(Cal, Cat, RName, AtomIn, AtomOut, PostComputation)
+with AtomIn = Goal and Cal, Cat, RName being respectively the calculus, the
+category, and the name of the rule.
+Resolving a modal atom Goal using a sequence of rules is done by calling
+the above described predicate solve using mrule for each rule of the sequence,
+where AtomIn of the first call of solve using mrule is Goal, and AtomIn of each
+one of the next calls is AtomOut of the previous call. As outputs, it returns
+AtomOut of the last call of solve using mrule and the composition (using \x{2018},\x{2019} and
+the reverse order) of the obtained PostComputation formulas. If the sequence of
+rules is empty then the outputs are Goal and true.
+To resolve a modal atom Goal using rules of a calculus Cal that belong to a
+category Cat, the interpreter searches for a sequence of rules to be used using the
+"
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.90431',
+                                                                     'content' => '
+From now on, we distinguish control predicates from classical predicates.
+'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.903513',
+                                                                     'content' => "
+following strategy: if the rule category is pre rSat or post rSat then the sequence
+consists of only the first applicable rule \x{2013} if there exists, or is empty \x{2013} otherwise;
+if the rule category is rSat or rNF then different sequences of rules will be tried,
+where short sequences have higher priorities. Having a sequence of rules, the
+interpreter applies it to Goal as described in the previous paragraph. The task
+is done by the predicate
+solve using mrules(Cal, Cat, Goal, AtomOut, PostComputation),
+where AtomOut and PostComputation are outputs.
+Resolving a modal atom Goal with a modal clause in Calculus is done according to the framework of SLD-resolution for MProlog, using the required
+predicates of Calculus in an appropriate way. The task is done by the predicate
+solve using mclauses(Calculus, Goal).
+Now return to the problem of resolving mcall (Goal, Calculus) for the case
+when Goal is a modal atom. It is done by executing the following statements
+solve using mrules(Calculus, pre rSat, Goal, A2, F2),
+solve using mrules(Calculus, rSat, A2, A3, F3),
+solve using mrules(Calculus, post rSat, A3, A4, F4),
+solve using mrules(Calculus, rNF, A4, A5, F5),
+solve using mclauses(Calculus, A5),
+F5, F4, F3, F2.
+It remains to discuss the interpretation of the control predicates. In the current version of MProlog, we just adopt the following solution, which does not
+"
+                                                                   },
+                                                                   {
+                                                                     'content' => '
+The interpretation for the case of M : (F 1, F 2) is sound and complete if M is
+a modality in labeled form (i.e. M does not contain unlabeled existential modal
+operators). The interpretation for the case of M : (F 1; F 2) is also sound.
+',
+                                                                     'confidence' => '0.831983'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.999813833333333',
+                                                                     'content' => '
+This work presents a new design for modal logic programming. We have designed
+MProlog to obtain high usefulness, effectiveness, and flexibility. For usefulness:
+codes, libraries, and most features of Prolog can be used in MProlog programs;
+for effectiveness: classical fragments are interpreted by Prolog itself, and a number of options can be used for MProlog to restrict the search space; for flexibility:
+there are three kinds of predicates (classical, modal, dum) and we can use and
+mix different calculi in an MProlog program.
+'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+MProlog has a very different theoretical foundation than the existing Molog
+system. In MProlog, a labeling technique is used for existential modal operators
+instead of skolemization. We also provide and use new technicalities like normal forms of modalities or pre-orders between modal operators. MProlog also
+eliminates drawbacks of Molog (e.g., MProlog gives computed answers).
+We have implemented SLD-resolution calculi for a number of useful modal
+logics [11], including all of the multimodal logics of belief considered in this work.
+The multimodal logics of belief KDI4s , KDI4s 5, KDI45, KD4s 5s , KD4Ig 5a
+were first introduced and studied by us for modal logic programming [10]. Some
+of the implemented SLD-resolution calculi, e.g. the ones for KD, KD45, S5,
+KDI4s 5, KD4s 5s , KD45(m) , are very efficient6 .
+Our system is a tool for experimenting with applications of modal logic programming to AI. See [11] for an interesting formulation of the wise men puzzle
+in MProlog. Our system is also a tool for developing and experimenting with
+new SLD-resolution calculi for modal logic programming.
+Acknowledgements: I would like to thank professors Andreas Herzig and Luis
+Fari\x{2dc}
+nas del Cerro for a discussion on this paper. I would like also to thank
+Dr. Rajeev Gor\x{b4}e and the anonymous reviewers for many helpful comments and
+suggestions.
+",
+                                                                     'confidence' => '0.995903944444444'
+                                                                   },
+                                                                   {
+                                                                     'content' => '
+For the mentioned logics, the rSat operator is either deterministic (for KD, KD45,
+and KD4s 5s ) or nondeterministic but with a low branching factor (2 for KD45(m) ,
+',
+                                                                     'confidence' => '0.8680475'
+                                                                   }
+                                                                 ],
+                                                     'subsectionHeader' => [
+                                                                           {
+                                                                             'confidence' => '0.499058',
+                                                                             'content' => '
+Preliminaries
+Syntax and Semantics of Quantified Multimodal Logics
+'
+                                                                           },
+                                                                           {
+                                                                             'confidence' => '0.95816',
+                                                                             'content' => '
+Modal Logics of Belief
+'
+                                                                           },
+                                                                           {
+                                                                             'confidence' => '0.51739',
+                                                                             'content' => '
+Modal Logic Programs
+'
+                                                                           },
+                                                                           {
+                                                                             'confidence' => '0.335007',
+                                                                             'content' => '
+Design of MProlog
+'
+                                                                           }
+                                                                         ],
+                                                     'author' => {
+                                                                 'content' => '
+Linh Anh Nguyen
+',
+                                                                 'confidence' => '0.746437'
+                                                               },
+                                                     'title' => {
+                                                                'confidence' => '0.590901',
+                                                                'content' => '
+The Modal Logic Programming System
+MProlog ?
+'
+                                                              },
+                                                     'confidence' => '0.000000',
+                                                     'sectionHeader' => [
+                                                                        {
+                                                                          'confidence' => '0.365556',
+                                                                          'content' => '
+Conclusions
+',
+                                                                          'genericHeader' => 'conclusions'
+                                                                        },
+                                                                        {
+                                                                          'confidence' => '0.990027',
+                                                                          'content' => '
+References
+',
+                                                                          'genericHeader' => 'references'
+                                                                        },
+                                                                        {
+                                                                          'content' => '
+3 for S5, and m for KDI4s 5).
+',
+                                                                          'genericHeader' => 'general terms',
+                                                                          'confidence' => '0.471309'
+                                                                        }
+                                                                      ],
+                                                     'equation' => [
+                                                                   {
+                                                                     'content' => "
+M
+M, V, w  p(t1 , . . . , tn ) iff (tM
+1 [V ], . . . , tn [V ]) \x{2208} \x{3c0}(w)(p);
+M, V, w  2i \x{3d5}
+",
+                                                                     'confidence' => '0.977434'
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+2i \x{3d5} \x{2192} \x{ac}2i \x{ac}\x{3d5}
+2i \x{3d5} \x{2192} 2j \x{3d5} if i &gt; j
+2 i \x{3d5} \x{2192} 2i 2i \x{3d5}
+2 i \x{3d5} \x{2192} 2j 2i \x{3d5}
+\x{ac}2i \x{3d5} \x{2192} 2i \x{ac}2i \x{3d5}
+\x{ac}2i \x{3d5} \x{2192} 2j \x{ac}2i \x{3d5}
+Meaning
+belief is consistent
+",
+                                                                     'confidence' => '0.864111875'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.990483875',
+                                                                     'content' => "
+\x{3d5}1
+\x{3d5}2
+\x{3d5}3
+\x{3d5}4
+= 22 (p(x) \x{2190} 32 q(x))
+= 21 (q(x) \x{2190} r(x), s(x))
+= 21 (21 r(x) \x{2190} s(x))
+= 31 s(a) \x{2190}
+"
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.933230464285714',
+                                                                     'content' => "
+Goals
+Input clauses/rules
+\x{2190} 21 p(x)
+\x{2190} 21 32 q(x)
+\x{3d5}1
+\x{2190} 32 q(x)
+rSatL (a)
+\x{2190} 31 q(x)
+rSatL (b)
+\x{2190} hXi1 q(x)
+rSatL (c)
+\x{2190} hXi1 r(x), hXi1 s(x)
+\x{3d5}2
+\x{2190} hY i1 hXi1 r(x), hXi1 s(x)
+rN FL
+\x{2190} hY i1 s(x), hXi1 s(x)
+\x{3d5}3
+\x{2190} hXi1 s(a)
+\x{3d5}4
+empty clause
+\x{3d5}4
+6
+MGUs
+{x1 /x}
+{x5 /x}
+{x7 /x}
+{x/a, Y /s(a)}
+{X/s(a)}
+"
+                                                                   },
+                                                                   {
+                                                                     'content' => "
+23q(x, y)
+2i hXi3 3j q(a)
+2x god exists \x{2190} christian(x)
+[b, d] : q(X, Y )
+[bel(I), pos(3, X), pos(J)] : q(a)
+[bel(X)] : god exists :- christian(X)
+",
+                                                                     'confidence' => '0.918566833333333'
+                                                                   },
+                                                                   {
+                                                                     'content' => '
+AtomIn :- PreCondition, AtomOut, PostComputation.
+RuleName :: (AtomIn :- PreCondition, AtomOut, PostComputation).
+',
+                                                                     'confidence' => '0.442084'
+                                                                   },
+                                                                   {
+                                                                     'content' => '
+rSatKDI4s5 :: ( [pos(I)]:E :get calling history(rSat, Cal, , RNames),
+\\+ memberchk(rSatKDI4s5, RNames), % not called before
+',
+                                                                     'confidence' => '0.6937185'
+                                                                   },
+                                                                   {
+                                                                     'confidence' => '0.848092',
+                                                                     'content' => '
+set option(OptionName, Calculus, Value)
+set option(OptionName, Value)
+'
+                                                                   }
+                                                                 ],
+                                                     'reference' => [
+                                                                    {
+                                                                      'confidence' => '0.813753125',
+                                                                      'content' => '
+have a logical basis:
+mcall_(M:(F1,F2), Cal) :- !, mcall_(M:F1, Cal), mcall_(M:F2, Cal).
+mcall_(M:(F1;F2), Cal) :- !, mcall_(M:F1, Cal); mcall_(M:F2, Cal).
+mcall_(M:(\\+ F), Cal) :- !,
+make_dual_modality(Cal, M, M2), \\+ mcall_(M2:F, Cal).
+mcall_(M:(F1 -&gt; F2), Cal) :- mcall_(M:F1, Cal)-&gt;mcall_(M:F2, Cal).
+mcall_(M:if(F1, F2, F3), Cal) :- !,
+call(F1) -&gt; mcall_(M:F2, Cal); mcall_(M:F3, Cal).
+'
+                                                                    },
+                                                                    {
+                                                                      'confidence' => '0.999532882352941',
+                                                                      'content' => "
+1. Akama, S.: A Meta-Logical Foundation of Modal Logic Programming. 1-20-1,
+Higashi-Yurigaoka, Asao-ku, Kawasaki-shi, 215, Japan, December 1989.
+2. Balbiani, P., Fari\x{2dc}
+nas del Cerro, L., Herzig, A.: Declarative Semantics for Modal
+Logic Programs, Proceedings of the 1988 International Conference on Fifth Generation Computer Systems, ICOT, 1988, 507\x{2013}514.
+3. Baldoni, M., Giordano, L., Martelli, A.: A Framework for a Modal Logic Programming, Joint International Conference and Symposium on Logic Programming, MIT
+Press, 1996, 52\x{2013}66.
+4. Fari\x{2dc}
+nas del Cerro, L.: MOLOG: A System that Extends PROLOG with Modal
+Logic, New Generation Computing, 4, 1986, 35\x{2013}50.
+5. Debart, F., Enjalbert, P., Lescot, M.: Multimodal Logic Programming Using Equational and Order-Sorted Logic, Theoretical Computer Science, 105, 1992, 141\x{2013}166.
+6. Fitting, M., Mendelsohn, R. L.: First-Order Modal Logic, Kluwer Academic Publishers, 1999.
+7. Garson, J.: Quantification in Modal Logic, in: Handbook of Philosophical Logic,
+Volume II (F. Guenthner, D. Gabbay, Eds.), 1999, 249\x{2013}307.
+8. Lloyd, J.: Foundations of Logic Programming, 2nd Edition, Springer-Verlag, 1987.
+9. Nguyen, L. A.: A Fixpoint Semantics and an SLD-Resolution Calculus for Modal
+Logic Programs, Fundamenta Informaticae, 55(1), 2003, 63\x{2013}100.
+"
+                                                                    },
+                                                                    {
+                                                                      'content' => "
+10. Nguyen, L. A.: Multimodal Logic Programming and Its Applications to Modal Deductive Databases, manuscript (served as a technical report), available on Internet
+at http://www.mimuw.edu.pl/\x{2dc}nguyen/papers.html, 2003.
+11. Nguyen, L. A.: Source Files, Calculi, and Examples of MProlog, available on
+Internet at http://www.mimuw.edu.pl/\x{2dc}nguyen/mprolog, 2004.
+12. Nonnengart, A.: How to Use Modalities and Sorts in Prolog, Proceedings of
+JELIA\x{2019}94, LNCS 838 (C. MacNish, D. Pearce, L. M. Pereira, Eds.), Springer,
+1994, 365\x{2013}378.
+",
+                                                                      'confidence' => '0.999292714285714'
+                                                                    }
+                                                                  ],
+                                                     'affiliation' => {
+                                                                      'confidence' => '0.973833',
+                                                                      'content' => '
+Institute of Informatics, University of Warsaw
+'
+                                                                    },
+                                                     'listItem' => {
+                                                                   'content' => '
+1. universal modal operator(Calculus, Operator)
+2. dual modal operator(Calculus, Operator, DualOperator)
+3. box lifting form(Calculus, ModalOperator, BoxLiftingForm)
+which returns true iff BoxLiftingForm is the universal modal operator of the
+same modal index as ModalOperator in the calculus Calculus
+4. forward labeled form(Calculus, SimpleModalAtom, ForwardLabeledF)
+5. normal labeled form(Calculus, Modality)
+6. operator instance(Calculus, Instance, ModalOperator)
+7. context instance(Calculus, UniversalModality, ModalContext)
+',
+                                                                   'confidence' => '0.993355'
+                                                                 },
+                                                     'no' => '0',
+                                                     'page' => [
+                                                               {
+                                                                 'confidence' => '0.867456',
+                                                                 'content' => '
+1
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.938791',
+                                                                 'content' => '
+2
+'
+                                                               },
+                                                               {
+                                                                 'content' => '
+2
+2.1
+',
+                                                                 'confidence' => '0.813571'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.980924',
+                                                                 'content' => '
+2
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.740497',
+                                                                 'content' => '
+2.2
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.990948',
+                                                                 'content' => '
+3
+'
+                                                               },
+                                                               {
+                                                                 'content' => '
+2.3
+',
+                                                                 'confidence' => '0.92113'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.98958',
+                                                                 'content' => '
+3
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.986098',
+                                                                 'content' => '
+4
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.913895',
+                                                                 'content' => '
+3
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.941343',
+                                                                 'content' => '
+5
+'
+                                                               },
+                                                               {
+                                                                 'content' => '
+4
+',
+                                                                 'confidence' => '0.791076'
+                                                               },
+                                                               {
+                                                                 'content' => '
+4.1
+',
+                                                                 'confidence' => '0.806753'
+                                                               },
+                                                               {
+                                                                 'content' => '
+7
+',
+                                                                 'confidence' => '0.969071'
+                                                               },
+                                                               {
+                                                                 'content' => '
+4.2
+',
+                                                                 'confidence' => '0.942391'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.990841',
+                                                                 'content' => '
+8
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.9646',
+                                                                 'content' => '
+9
+'
+                                                               },
+                                                               {
+                                                                 'content' => '
+4.3
+',
+                                                                 'confidence' => '0.962963'
+                                                               },
+                                                               {
+                                                                 'content' => '
+4
+',
+                                                                 'confidence' => '0.905243'
+                                                               },
+                                                               {
+                                                                 'content' => '
+10
+',
+                                                                 'confidence' => '0.981098'
+                                                               },
+                                                               {
+                                                                 'content' => '
+5
+',
+                                                                 'confidence' => '0.884428'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.874034',
+                                                                 'content' => '
+5
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.996505',
+                                                                 'content' => '
+11
+'
+                                                               },
+                                                               {
+                                                                 'content' => '
+6
+',
+                                                                 'confidence' => '0.950776'
+                                                               },
+                                                               {
+                                                                 'content' => '
+12
+',
+                                                                 'confidence' => '0.992204'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.982037',
+                                                                 'content' => '
+6
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.996327',
+                                                                 'content' => '
+13
+'
+                                                               },
+                                                               {
+                                                                 'confidence' => '0.999248',
+                                                                 'content' => '
+14
+'
+                                                               }
+                                                             ]
+                                                   },
+                                        'version' => '110505'
+                                      }
+                       }
+        };

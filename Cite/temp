@@ -1,0 +1,32 @@
+
+sub OldLookup {
+  my ($self) = (shift);
+  my $input = $self->ParsedCitation->{atitle};
+  my ($limit,$similarity,@matches) = (0,0,());
+  foreach my $ref (@{$self->Cite->HashRefs}) {
+    # print "($input)(". $ref->{TITLE} .")($limit)\n";
+    # $similarity = similarity($input, $ref->{TITLE},$limit);
+    $similarity = similarity($input, $ref->{TITLE},0);
+    push @matches, [$ref, $similarity];
+    if ($similarity > $limit) {
+      $limit = $similarity;
+      push @matches, [$ref, $similarity];
+    }
+  }
+  # select a match
+  # foreach my $match (@matches) {
+  #   print "<<<" . $match->[1] . ">\t<" . $match->[0]->{TITLE} . ">>>\n";
+  # }
+
+  my $i = 0;
+  foreach my $match (sort {$b->[1] <=> $a->[1]} @matches) {
+    print "$i <<<" . $match->[1] . ">\t<" . $match->[0]->{TITLE} . ">>>\n";
+    $i = $i + 1;
+  }
+
+  my $ans = Query("Which number?");
+  
+  # check grammer
+}
+
+1;

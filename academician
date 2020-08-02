@@ -1,0 +1,19 @@
+#!/usr/bin/perl -w
+
+use Academician;
+
+use UniLang::Agent::Agent;
+use UniLang::Util::Message;
+
+$UNIVERSAL::agent = UniLang::Agent::Agent->new
+  (Name => "Academician",
+   ReceiveHandler => \&Receive);
+$UNIVERSAL::academician = Academician->new();
+
+sub Receive {
+  my %args = @_;
+  $UNIVERSAL::academician->ProcessMessage
+    (Message => $args{Message});
+}
+
+$UNIVERSAL::academician->Execute();

@@ -1,0 +1,42 @@
+
+
+
+$VAR1 = {
+          'Flags' => {
+                       'OutputType' => 'CycL String'
+                     },
+          'Context' => 'Org::FRDCSA::Academician',
+          'Command' => 'query',
+          'OutputType' => 'CycL String',
+          'Database' => 'freekbs2',
+          'InputType' => 'Emacs String',
+          'Method' => 'MySQL',
+          '_DoNotLog' => 1,
+          'FormulaString' => '("done" ("read" "andrewdo" ("page-no" var-PAGENO ("publication-fn" "grosof-haley-talk-semtech2013-ver6-10-13"))))'
+        };
+
+$VAR1 = {
+          'Data' => {
+                      'Type' => undef,
+                      'Quiet' => undef,
+                      'Database' => 'freekbs2',
+                      'OutputType' => undef,
+                      '_DoNotLog' => 1,
+                      'Command' => 'query',
+                      'Flags' => undef,
+                      'Data' => undef,
+                      'Context' => 'Org::FRDCSA::Academician',
+                      'Asserter' => 'guest',
+                      'Formula' => [
+                                     'desires',
+                                     \*{'::?PERSON'},
+                                     [
+                                       'know-more-about',
+                                       $VAR1->{'Data'}{'Formula'}[1],
+                                       \*{'::?TOPIC'}
+                                     ]
+                                   ],
+                      'Method' => 'MySQL'
+                    },
+          'Receiver' => 'KBS2'
+        };

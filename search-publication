@@ -1,0 +1,30 @@
+#!/usr/bin/perl -w
+
+use KBFS::Cache;
+use PerlLib::ToText;
+use PerlLib::URIExtractor;
+
+use Data::Dumper;
+
+my $cache = KBFS::Cache->new
+  (
+   CacheType => "web",
+   CacheDir => "/tmp/doccache",
+  );
+$cache->Contents({});
+
+my $totext = PerlLib::ToText->new;
+
+foreach my $uri (@ARGV) {
+  my $item = $cache->CacheNewItem
+    (URI => $uri);
+  print $item->Loc."\n";
+  my $res = $totext->ToText(File => $item->Loc);
+  if ($res->{Success}) {
+    print "extracting uris\n";
+    print Dumper(ExtractURIs($res->{Text}));
+    print "done\n";
+  }
+}
+
+# do a uriextractor on it after converting to text
